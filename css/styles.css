@@ -152,7 +152,7 @@ a{
     margin: auto;
     background:url(../images/29004.jpg) 0 0 no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -185,14 +185,14 @@ a{
 }
 
 .myslides h2{
-    font-size: 160px;
+    font-size: 150px;
     text-transform: uppercase;
     letter-spacing: 33px;
-    font-weight:700 ;
+    font-weight:800 ;
     line-height: 1;
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 100px;
+    left: 80px;
     z-index: 10;
     animation-duration: 1.1s;
     animation-fill-mode: both;
@@ -212,8 +212,8 @@ a{
     display: block;
     width: auto;
     height: 500px;
-    position: relative;
-    z-index: 20;
+    position:relative;
+    z-index: 200;
     animation-duration: 1.1s;
     animation-fill-mode: both;
     animation-name: slideInRight;
@@ -224,10 +224,10 @@ a{
 }
 
 .myslides .p_detail{
-    width: 350px;
+    width: 250px;
     position: absolute;
-    top: 180px;
-    right: 100px;
+    top: 215px;
+    right: 150px;
     z-index: 30;
 }
 
@@ -289,7 +289,7 @@ a{
 
 .myslides .p_detail select{
     display: inline-block;
-    border: 1px solid #4cdfcb;
+    border: 1px solid black;
     background: hsl(184, 95%, 48%);
     font-size: 14px;
     font-weight: bold;
@@ -304,7 +304,7 @@ a{
     color: white;
     padding: 6px 20px;
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid black;
     margin-right: 15px;
     transition: 0.5s background-color;
     animation-duration: 1.2s;
@@ -320,8 +320,8 @@ a{
 .myslides .p_detail span{
     color: white;
     display: inline-block;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 900;
     animation-duration: 1.2s;
     animation-fill-mode: both;
     animation-name: slideInRight;
@@ -372,4 +372,124 @@ a{
         opacity: 1;
         transform: translate3d(0,0,0);
     }
+}
+
+.service_section{
+    color:333;
+    padding: 75px;
+}
+
+.dark{
+    color:hsl(184, 95%, 48%);
+}
+
+.sec_title{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 025px;
+    padding: 14px 0;
+    color:#333;
+}
+
+.color_aaa{
+    color: darkgrey;
+}
+
+.row.custom_column .col-lg-3 .col-sm-4 .col-md-3{
+    width: 20% !important;
+    flex:0 0 20%;
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: transparent;
+    perspective: 1000;
+    transform-style: preserve-3d;
+    transition: all ease 400ms;
+}
+
+.box .flipper{
+    transform-origin: 100% 213.5px;
+    margin-top: 50px;
+}
+
+.box .front i,
+.box .back i{
+    font-size: 64px;
+    line-height: 1;
+    color: #aaaaaa;
+    display: block;
+    margin-bottom: 17px;
+    transition: all ease 400ms;
+}
+
+.box .front h3,
+.box .back h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    margin: 0;
+    transition: all ease 400ms;
+    
+}
+
+.flipper{
+    transform: perspective(1000px);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back{
+    backface-visibility: hidden;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front{
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    background: transparent;     
+    z-index: 2;
+    border: 2px solid rgba(27, 27, 27, 1);
+    padding: 48px 45px 45px;
+    width: 100%;
+}
+
+.back{
+    background: #00bcd4;
+    transform: rotateY(-180deg);
+    position: relative;
+    padding: 48px 45px 45px;
+    border: 2px solid #00bcd4;
+    width: 100%;
+}
+
+.box:hover .front{
+    transform: rotateY(180deg);
+}
+
+.box:hover .back{
+    transform: rotateY(0deg);
+}
+
+.box .back h3,
+.box .back i{
+    color: white;
+}
+
+a.box.text-center{
+    text-decoration: none;
 }

@@ -1,3 +1,5 @@
+//funcion de scrol en el header
+
 $(window).scroll(function (){
     const scrl = $(window).scrollTop();
     if(scrl < 60)
@@ -14,6 +16,8 @@ showSlides(slideIndex);
 function plusSlides(n){
     showSlides(slideIndex += n);
 }
+
+// funcion de slideshow en home
 
 function showSlides(n){
     let i;
