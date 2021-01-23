@@ -150,7 +150,7 @@ a{
     max-width: 100%;
     position: relative;
     margin: auto;
-    background:url(../images/29004.jpg) 0 0 no-repeat;
+    background:url(../images/image_home.jpg) 0 0 no-repeat;
     background-size: cover;
     height: 100vh;
     overflow: hidden;
@@ -209,9 +209,11 @@ a{
 }
 
 .myslides .p_img{
+    margin-top: 5px;
+    margin-left: 310px;
     display: block;
     width: auto;
-    height: 500px;
+    height: 480px;
     position:relative;
     z-index: 200;
     animation-duration: 1.1s;
@@ -381,6 +383,7 @@ a{
 
 .dark{
     color:hsl(184, 95%, 48%);
+    border: 1px solid darkgrey;
 }
 
 .sec_title{
@@ -493,3 +496,4 @@ a{
 a.box.text-center{
     text-decoration: none;
 }
+
