@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="/css/jquery.flipster.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Bicycles from Schauff | Home</title>
 </head>
@@ -36,16 +38,19 @@
                     <div class="collapse navbar-collapse" id="cool">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="" class="nav-link">Bicycles</a>
+                                <a href="#first" class="nav-link smooth-scroll">Bicycles</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Services</a>
+                                <a href="#second" class="nav-link smooth-scroll">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">News</a>
+                                <a href="#third" class="nav-link smooth-scroll">News</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Contact</a>
+                                <a href="#fourth" class="nav-link smooth-scroll">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#foot" class="nav-link smooth-scroll">More</a>
                             </li>
                         </ul>
                     </div>
@@ -187,10 +192,10 @@
 
 <!-- Seccion de servicios desde aca -->
 
-<section class="service_section">
+<section class="service_section" id="second">
     <div class="container">
         <div class="rox">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center wow bounceInUp">
                 <h4 class="dark">Services</h4>
                 <h2 class="sec_title">
                     Our bicycles adapt to everyone's needs, so why wait?
@@ -201,7 +206,7 @@
                 </p>
             </div>
         </div>
-        <div class="row custom_column">
+        <div class="row custom_column wow slideInRight" data-wow-duration="1.5s">
             <div class="col-lg-3 col-sm-4 col-md-3">
                 <a href="#" class="box text-center">
                     <div class="flipper">
@@ -575,6 +580,7 @@
 
 <div id="details-lightbox-1" class="lightbox-basic zoom mfp-hide">
     <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">X</button>
         <div class="col-lg-6">
             <img src="/images/pngfind.com-bicicleta-png-6144816.png" class="img-fluid" alt="">
         </div>
@@ -638,6 +644,7 @@
 
 <div id="details-lightbox-2" class="lightbox-basic zoom mfp-hide">
     <div class="row">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">X</button>
         <div class="col-lg-6">
             <img src="/images/pngfind.com-bicicleta-png-6145003.png" class="img-fluid" alt="">
         </div>
@@ -699,13 +706,318 @@
     </div>
 </div>
 
+<!-- seccion parallax de la pagina -->
+
+<section class="parallax-setting" id="fourth">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="color-white font-18">
+                    Everyday is a nice day to ride a bike!
+                </p>
+                <br>
+                <h2>Looking for the right bicicle? here we go!</h2>
+                <br><br>
+                <a href="" class="text-white btn">
+                    To the catalog
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="quote" class="testimonial-section py-5">
+    <div class="container py-lg-5">
+        <div id="flipster-carousel" class="flipster-carousel pt-md-3">
+            <div class="flip-items pb-5">                 
+                <div class="flip-item text-center text-md-left">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Amazing App</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/angelamerkel.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Tonry Careter</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Marvellous</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/download.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Actually Impressive</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/jair_Bolsonaro.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Actually Impressive</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/Official_portrait_of_Barack_Obama.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Actually Impressive</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/Tony_Stark.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Actually Impressive</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/200px-Emmanuel_Macron_in_July_2017.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+                
+                <div class="flip-item">
+                    <div class="item-inner shadow-lg rounded">
+                        <h5 class="mb-2">Actually Impressive</h5>
+                        <div class="ratings text-primary mb-3">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        </div>
+                        
+                        <div class="source media flex-column flex-md-row">
+                            <img class="source-profile rounded-circle" src="/images/210px-Moon_Jaein_official_portrait.jpg" alt="">
+                            <div class="source-info media-body pt-3">
+                                <div>Helens Oewens</div>
+                                <div>London, UK</div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>                  
+            </div>
+            
+            <div class="pt-5 text-center">
+                <a href="" class="btn btn-primary">Get Started</a>
+            </div>              
+        </div>
+    </div>
+</section>
+
+<!-- seccion footer -->
+
+<footer class="footer theme-bg-primary" id="foot">
+    <div class="container py-5 mb-3 col-md-offset-2">
+        <div class="row" style="margin-left:50px">
+            <div class="footer-col col-lg-3">
+                <h4 class="col-heading">Cosas</h4>
+                <ul>
+                    <li><a href="">What we are</a></li>
+                    <li><a href="">Prices</a></li>
+                    <li><a href="">Where we are</a></li>
+                    <li><a href="">about us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3">
+                <h4 class="col-heading">Otras cosas</h4>
+                <ul>
+                    <li><a href="">Lorem ipsum</a></li>
+                    <li><a href="">No se que poner</a></li>
+                    <li><a href="">Y aca?</a></li>
+                    <li><a href="">Mas cosas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3">
+                <h4 class="col-heading">Legales?</h4>
+                <ul>
+                    <li><a href="">Lorem ipsum</a></li>
+                    <li><a href="">No se que poner</a></li>
+                    <li><a href="">Y aca?</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-lg-3">
+                <h4 class="col-heading">Stay with us</h4>
+                <ul class="social-list">
+                    <li class="list-inline-item"><a href=""><i class="fa fa-instagram fa-fw "></i></a></li>
+                    <li class="list-inline-item"><a href=""><i class="fa fa-facebook fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a href=""><i class="fa fa-twitter fa-fw"></i></a></li>
+                </ul>
+                <div class="mb-2">
+                    Schauff Bicycles <br>
+                    In der Wässerscheid 56<br>
+                    53424 Remagen, Deutschland
+                </div>
+                <div>
+                    <a href="">schauffbikes@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+    </div>
+    <div class="download-area">
+        <div class="container text-center">
+            <h3 class="mb-3">Download our App</h3>
+            <div class="section-intro mb-4 mx-auto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt soluta ad dignissimos sed est veritatis nihil blanditiis quas nostrum, laboriosam adipisci, non porro. Voluptas omnis quisquam provident sapiente unde.
+            </div>
+            <ul class="d-inline-block">
+                <li class="inline-item mr-3">
+                    <a href="">
+                        <img class="ios" src="/images/appstore-apple.svg" alt="">
+                    </a>
+                
+                    <a href="">
+                        <img class="android" src="/images/appstore-android.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-botton text-center mb-5">
+        <small class="copyright">
+            Design for Susan
+            <i class="fa fa-space-shuttle" style="color:blue"></i>
+            by
+            <a href="https://github.com/ddrrakkenn">Jorge Ignacio Lara Ceballos - DDRRAKKEN -</a>
+        </small>
+
+        <a id="back2Top" title="Back to top" href="#" class="smooth-scroll">&#10148;</a>
+    </div>
 
 
+</footer>
+
+<!-- zona de script -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.flipster.min.js"></script>
+<script src="/js/flipster-custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+<script src="/js/wow.min.js"></script>
 <script src="/js/main.js"></script>
+<script>
+    $(window).scroll(function() {
+    let scrl = $(window).scrollTop();
+    if (scrl < 60)
+    {						
+    $('.header_01').removeClass('fixedbar');
+    }					
+    else					
+    {						
+    $('.header_01').addClass('fixedbar');					
+    }				
+    });
+</script>
+
 <script>
     (function($){
         "use strict";
@@ -721,6 +1033,40 @@
             mainClass: 'my-mfp-slide-bottom'
         });
     })(jQuery);
+
+    $(window).scroll(function() {
+    let height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+}); 
+</script>
+
+<script>
+    new WOW().init();
+</script>
+
+<script>
+    $(function () {
+
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+        let section = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});
 </script>
 <body>
 </html>

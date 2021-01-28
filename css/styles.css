@@ -23,7 +23,6 @@ ol {
     padding: 21px 40px 0 24px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     transition: all ease 1s;
-
 }
 
 body {
@@ -65,7 +64,6 @@ body {
 .mainmenu ul {
     margin: 0;
     padding: 0;
-
 }
 
 .mainmenu ul li {
@@ -250,7 +248,7 @@ a {
 }
 
 .myslides .p_detail h3 {
-    color:rgb(250, 6, 6);
+    color:rgb(6, 250, 67);
     font-size: 50px;
     font-weight: 600;
     font-size: italic;
@@ -326,7 +324,6 @@ a {
     animation-duration: 1.2s;
     animation-fill-mode: both;
     animation-name: fadeInUp;
-
 }
 
 .myslides .p_detail a:hover {
@@ -576,7 +573,6 @@ a.box.text-center {
 
 .tabs .card-body p {
     font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 .tabs .card .card-icon {
@@ -616,7 +612,6 @@ a.box.text-center {
     display: inline-block;
     width: 75%;
     margin-left: 1rem;
-
 }
 
 .tabs .card .card-icon {
@@ -650,13 +645,11 @@ a.box.text-center {
 
 .basic-2 img{
     margin-bottom: 3.5rem;
-    
 }
 
 .basic-2 h3{
     margin-bottom: 1.125rem;
     font-family: 'Roboto Condensed',sans-serif;
-    
 }
 
 .basic-2 .btn-solid-reg{
@@ -798,7 +791,15 @@ a.box.text-center {
     width: 2.75rem;
     height: 2.75rem;
     color: #f1f1f8;
-    
+}
+
+.lightbox-basic button.mfp-close.x-button{
+    position: absolute;
+    top: -0.375rem;
+    right: -0.375rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    color: #f1f1f8;
 }
 
 .my-mfp-slide-bottom .zoom{
@@ -811,4 +812,136 @@ a.box.text-center {
 .my-mfp-slide-bottom.mfp-ready .zoom{
     opacity: 1;     
     transform: translateY(0) perspective(37.5rem) rotateX(0deg);
+}
+
+.parallax-setting{
+    background-image: url(../images/shop-dusk.jpg);
+    padding: 150px 150px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parallax-setting h2{
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+
+.parallax-setting a{
+    background: #00bcd4;
+    padding: 14px 35px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+}
+
+.parallax-setting a:hover{
+    border: 2px solid #00bcd4;
+    text-decoration: none;
+    background: transparent;
+}
+
+.flipster-carousel{
+    display: none;
+    color: rgb(90, 86, 86);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flip-item{
+    width: 420px;
+}
+
+.flip-item .item-inner{
+    padding: 2rem;
+    border: 1px solid #efefef;
+    background: white;
+}
+
+
+.flip-item .source-profile{
+    width: 120px;
+    height: 140px;
+}
+
+.flip-item .source-info{
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.flipster--coverflow .flipster__item__content{
+    -webkit-box-reflect:unset;
+}
+
+.flipster__button{
+    width: 40px;
+    height: 40px;
+    margin-top: -3rem;
+    background: #39e2ee;
+    border-radius: 50%;
+}
+
+.flipster__button svg{
+    width: 1rem;
+    stroke:white;
+}
+
+.flipster__button svg:hover{  
+    stroke:white;
+}
+
+.pt-5 a{
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #00c9db;
+    color: #00c9db;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.footer{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.theme-bg-primary{
+    background-color: #c6cacc;
+}
+
+.col-heading{
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    margin-bottom: 20px;
+}
+
+.mb-2{
+    margin-bottom: 0.5rem !important;
+}
+
+.footer ul li a{
+    font-size: 17px;
+    color: #333;
+}
+
+.download-area h3{
+    font-family: 'Oswald',sans-serif;
+}
+
+#back2Top{
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #00c9db;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-radius: 4px;
 }
